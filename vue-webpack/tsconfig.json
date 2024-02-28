@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "lib": ["DOM", "ESNext"],
+        "jsx": "preserve",
+        "outDir": "build",
+        "esModuleInterop": true,
+        "paths": {
+            "@/*": [
+                "./*"
+            ]
+        }
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+  }
+  
